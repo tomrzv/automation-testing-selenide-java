@@ -36,7 +36,9 @@ dependencies {
             "com.github.javafaker:javafaker:1.0.2",
             "org.assertj:assertj-core:3.19.0",
             "org.junit.jupiter:junit-jupiter-api:$junitVersion",
-            "com.google.code.gson:gson:2.8.8")
+            "com.google.code.gson:gson:2.8.8",
+            'com.typesafe:config:1.0.2'
+    )
     testRuntimeOnly(
             "org.junit.jupiter:junit-jupiter-engine:$junitVersion")
 }
