@@ -8,7 +8,7 @@ public interface ProjectConfig extends Config {
     @Config.Key("browser")
     String browser();
 
-    @Config.DefaultValue("1920x1080")
+    @Config.DefaultValue("800x600")
     @Config.Key("browserSize")
     String browserSize();
 

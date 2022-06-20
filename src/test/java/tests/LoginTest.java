@@ -3,7 +3,7 @@ package tests;
 import org.junit.jupiter.api.Test;
 import pages.LoginPage;
 
-public class LoginTest {
+public class LoginTest extends BaseTest{
     public LoginPage loginPage = new LoginPage();
 
     @Test

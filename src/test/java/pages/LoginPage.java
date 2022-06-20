@@ -5,11 +5,9 @@ import common.Project;
 import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Condition.visible;
-
 import static com.codeborne.selenide.Selenide.*;
 
 public class LoginPage {
-
     @Step("Opening the page")
     public LoginPage openLoginPage() {
         open(Project.config.baseUrl() + "login");
@@ -18,7 +16,6 @@ public class LoginPage {
 
     @Step("Checking the open page contain the 'Login' field")
     public LoginPage checkLoginField() {
-        System.out.println("Checking the open page contain the 'Login' field");
         $("#username").shouldBe(visible);
         return this;
     }

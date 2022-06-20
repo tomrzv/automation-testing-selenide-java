@@ -8,7 +8,7 @@ public class UITest {
     public LoginTest loginTest = new LoginTest();
 
     @Test
-    void start() {
+    void startAllTest() {
         loginTest.loginFormTest();
     }
 
