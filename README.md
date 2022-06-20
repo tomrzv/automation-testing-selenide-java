@@ -6,8 +6,10 @@
 <img src="https://img.shields.io/badge/Junit5-25A162?style=for-the-badge&logo=junit5&logoColor=white">
 <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white">
 </p>
+
 ## Project structure
 ```
+
 └── test
     ├── java
     │   ├── common
